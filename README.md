@@ -25,6 +25,6 @@ This lightweight pokémon API can be used to create a list of all pokemon, searc
 # Testing
 - Run `pytest -v tests/unit_test.py`
 
-# Please add a section in the readme describing any critical design decisions you’ve taken or links to any tools used.
+# Critical design decisions
 - Despite pokeapi documentation, did not implement caching on this initial rev of the sdk
 - In future releases, I would like to implement searching for a given pokemon to return which generation the corresponding pokemon is associated with.
